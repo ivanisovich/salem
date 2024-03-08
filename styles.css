@@ -5,11 +5,6 @@
   padding-right: 20px;
 }
 
-a{
-  color: white;
-  text-decoration: none;
-}
-
 .logo-parent {
   margin-top: 26px;
   margin-bottom: 17px;
@@ -19,6 +14,23 @@ a{
   z-index: 30;
   background: white;
   padding: 20px;
+}
+
+.button1{
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  opacity: 0.7;
+  transition: 0.3s ease-in-out;
+}
+
+
+.button1 a{
+  color: white;
+  text-decoration: none;
 }
 
 .logo{
@@ -32,7 +44,7 @@ a{
 }
 
 .logo-image{
-  width: 60px;
+  width:130px;
 }
 
 .burger-button img{
@@ -44,6 +56,15 @@ a{
   border: none;
   width: 40px;
   display: none;
+}
+
+.logo-parent a{
+  color: #070148;
+}
+
+.logo-parent .register a{
+  color: white;
+  text-decoration: none;
 }
 
 .desktop-1-item {
@@ -128,9 +149,6 @@ a{
   flex-direction: column;
   margin-top: 50px;
   margin-bottom: 50px;
-}
-
-.desktop-1-inner {
 }
 
 .rectangle-icon {
@@ -389,6 +407,15 @@ a{
   border-radius: 10px !important;
 }
 
+.footer__socials img{
+  width: 50px;
+}
+
+.footer .logo img{
+  width: 130px;
+}
+
+
 @media (max-width: 1380px) {
   /* .explore-beautiful-venues {
     font-size: 6.884vw;
@@ -551,7 +578,11 @@ a{
 
   .menu-parent{
     top: 80px;
-  }
+    }
+
+    .desktop-1-item{
+      margin-bottom: 100px;
+    }
 
   .where-your-event-container1 {
     font-size: 7vw;
@@ -610,8 +641,32 @@ a{
     top:-2vw;
   }
 
+  .logo-image{
+    width:120px;
+  }
+  
+
   .show-program{
     margin-bottom:340px;
+  }
+
+  .form__group{
+    flex-direction: column;
+    gap: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+  } 
+  .form__group .button1{
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+
+  .form__group input{
+    box-sizing: border-box;
+    max-width: 100%;
+    width: 100%;
   }
 
   .video h2{
@@ -690,10 +745,28 @@ a{
     font-size: 40px;
   
   }
+
+  .swiper{
+    padding-top: 250px !important;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next{
+    top:calc(50% + 125px) !important
+  }
+
+  .slide-bg__text{
+    top: -150px;
+    color: black;
+    z-index: 20;
+    background: white;
+    width: 100%;
+    max-width: 300px;
+  }
   
   .slide-bg p{
     font-size: 13px;
-  
+    max-width: 400px;
     text-align: center;
   
   }
@@ -701,7 +774,7 @@ a{
 
 @media (max-width: 550px) {
   .logo-image{
-    width: 50px;
+    width: 100px;
   }
 
   .logo{

@@ -36,15 +36,23 @@
   <body>
     <header class="logo-parent container">
       <div class="logo">
-        <img class="logo-image" src="./public/pattern kaz c.png" alt="" />
-        <div class="eventnity">SalemKazakhstan</div>
+        <img class="logo-image" src="./public/logo_salem_kazakhstan.svg" alt="" />
+     
       </div>
 
       <div class="menu-parent hidden">
         <div class="menu">
-          <div class="more-about-us">О нас</div>
-          <div class="more-about-us">Программа</div>
-          <div class="more-about-us">Галерея</div>
+          <div class="more-about-us">
+            <a href="#about">О нас</a>
+          </div>
+          <div class="more-about-us">
+            <a href="#program">Программа</a>
+          </div>
+          <div class="more-about-us">
+            <a href="#gallery">
+              Галерея
+            </a>
+          </div>
         </div>
 
         <div class="register-wrapper">
@@ -88,7 +96,88 @@
         </div>
       </div>
 
-      <section class="about-salem">
+      <section id="video" class="video">
+        <h2>“Salem Kazakhstan”</h2>
+
+        <p>
+          это не просто шоу, это настоящее искусство, которое объединяет нас и
+          наполняет наши сердца гордостью за нашу культуру и наследие.
+        </p>
+        
+        <script src="https://fast.wistia.com/embed/medias/1c9l3lagcs.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_1c9l3lagcs seo=true videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/1c9l3lagcs/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+      </section>
+
+      <section id="program" class="show-program">
+        <div class="explore-beautiful-venues">
+          Воссоздаем <br />
+          образы <br />
+          героев
+        </div>
+
+        <div class="card-1">
+          <img class="desktop-1-child1" alt="" src="./public/slider/1.webp" />
+          <div class="card-vanue-2">
+            <img class="card-icon" src="./public/icon1.png" alt="">
+            <div class="frame-group">
+              <div class="venue-1-parent">
+                <div class="regaele-convention-hall-container">
+                  <p class="regaele">Казахские национальные танцы</p>
+                </div>
+                <div class="more-about-us">
+                  такие как “Қыз қуу”, “Кара Жорга”, “Асатаяқ”, “Қосалқа”, “Ел
+                  салтанаты” и многие другие
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-2">
+          <img class="desktop-1-child1" alt="" src="./public/7.webp" />
+          <div class="card-vanue-2">
+            <img class="card-icon" src="./public/icon2.png" alt="">
+            <div class="frame-group">
+              <div class="venue-1-parent">
+                <div class="regaele-convention-hall-container">
+                  <p class="regaele">Уникальные костюмы и реквизит</p>
+                </div>
+                <div class="more-about-us">
+                  которые дополняют образы артистов.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-3">
+          <img class="desktop-1-child1" alt="" src="./public/1.webp" />
+          <div class="card-vanue-2">
+            <img class="card-icon" src="./public/icon3.png" alt="">
+            <div class="frame-group">
+              <div class="venue-1-parent">
+                <div class="regaele-convention-hall-container">
+                  <p class="regaele">Интересные исторические сюжеты</p>
+                </div>
+                <div class="more-about-us">рассказанные через танец</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <form id="form" class="form" action="">
+        <h2 >Хотите чтобы ваши клиенты остались в восторте от путешествия?</h2>
+
+        <div class="form__group">
+          <input placeholder="Имя" type="text">
+          <input placeholder="Телефон" type="text">
+          <button class="button1 button">
+            отправить
+          </button>
+        </div>
+      </form>
+
+      <section id="about" class="about-salem">
         <div class="about-salme__inner">
           <div class="about-eventnity">“Salem Kazakhstan”</div>
           <div class="evenity-is-event">
@@ -120,19 +209,7 @@
         </div>
       </section>
 
-      <form id="form" class="form" action="">
-        <h2 >Хотите чтобы ваши клиенты остались в восторте от путешествия?</h2>
-
-        <div class="form__group">
-          <input placeholder="Иия" type="text">
-          <input placeholder="Телефон" type="text">
-          <button class="button1 button">
-            отправить
-          </button>
-        </div>
-      </form>
-
-      <section class="slider">
+      <section id="gallery" class="slider">
         <div class="swiper">
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
@@ -192,93 +269,21 @@
         </div>
      
       </section>
-
-      <section class="show-program">
-        <div class="explore-beautiful-venues">
-          Воссоздаем <br />
-          образы <br />
-          героев
-        </div>
-
-        <div class="card-1">
-          <img class="desktop-1-child1" alt="" src="./public/8.webp" />
-          <div class="card-vanue-2">
-            <img class="card-icon" src="./public/icon1.png" alt="">
-            <div class="frame-group">
-              <div class="venue-1-parent">
-                <div class="regaele-convention-hall-container">
-                  <p class="regaele">Казахские национальные танцы</p>
-                </div>
-                <div class="more-about-us">
-                  такие как “Қыз қуу”, “Кара Жорга”, “Асатаяқ”, “Қосалқа”, “Ел
-                  салтанаты” и многие другие
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card-2">
-          <img class="desktop-1-child1" alt="" src="./public/7.webp" />
-          <div class="card-vanue-2">
-            <img class="card-icon" src="./public/icon2.png" alt="">
-            <div class="frame-group">
-              <div class="venue-1-parent">
-                <div class="regaele-convention-hall-container">
-                  <p class="regaele">Уникальные костюмы и реквизит</p>
-                </div>
-                <div class="more-about-us">
-                  которые дополняют образы артистов.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card-3">
-          <img class="desktop-1-child1" alt="" src="./public/1.webp" />
-          <div class="card-vanue-2">
-            <img class="card-icon" src="./public/icon3.png" alt="">
-            <div class="frame-group">
-              <div class="venue-1-parent">
-                <div class="regaele-convention-hall-container">
-                  <p class="regaele">Интересные исторические сюжеты</p>
-                </div>
-                <div class="more-about-us">рассказанные через танец</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="video" class="video">
-        <h2>“Salem Kazakhstan”</h2>
-
-        <p>
-          это не просто шоу, это настоящее искусство, которое объединяет нас и
-          наполняет наши сердца гордостью за нашу культуру и наследие.
-        </p>
-        
-        <script src="https://fast.wistia.com/embed/medias/kd4ddjjbpk.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_kd4ddjjbpk seo=true videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/kd4ddjjbpk/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
-      </section>
-
       
     </main>
     
     <footer class="footer container">
       <div class="logo">
-        <div class="eventnity">SalemKazakhstan</div>
+        <img src="./public/logo_salem_kazakhstan_w.svg" alt="">
       </div>
       <div class="footer__contacts">
         <p>Алматы, Казахстан</p>
-        <p>+7 777 123 4567</p>
+        <p>+7 777 010 05 23</p>
         <p>info@salemkazakhstan.com</p>
       </div>
 
       <div class="footer__socials">
-        <img src="./public/twitter.svg" alt="" />
-        <img src="./public/youtube.svg" alt="" />
-        <img src="./public/facebook.svg" alt="" />
+        <img src="./public/instagram-white-icon.webp" alt="" />
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

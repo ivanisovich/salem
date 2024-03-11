@@ -140,6 +140,8 @@ a:hover{
 
 .evenity-is-event {
   width: 100%;
+    
+  text-align: justify;
 }
 
 .about-salem__photos {
@@ -477,6 +479,11 @@ a:hover{
 @media (max-width: 1120px) {
   .about-salem {
     flex-direction: column-reverse;
+    margin-bottom: 100px;
+  } 
+
+  .form{
+    margin-bottom: 100px;
   }
 
   .desktop-1-item {
@@ -614,12 +621,12 @@ a:hover{
   .card-vanue-2{
     border-radius: 3.906vw;
     padding: 4.036vw 5.208vw;
-    font-size: 2.604vw;
-    max-width: 39.063vw;
+    font-size: 3.304vw;
+    max-width: 48.063vw;
   }
 
   .regaele-convention-hall-container{
-    font-size: 2.604vw;
+    font-size: 3.304vw;
   }
 
   .card-1 .card-vanue-2{
@@ -706,8 +713,8 @@ a:hover{
   }
 
   .evenity-is-event{
-    font-size: 14px;
-    max-width: 360px;
+    font-size: 16px;
+
   }
 
   .logo-mobile {
@@ -765,7 +772,7 @@ a:hover{
   }
   
   .slide-bg p{
-    font-size: 13px;
+
     max-width: 400px;
     text-align: center;
   

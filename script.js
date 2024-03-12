@@ -2,6 +2,13 @@ document.querySelector(".burger-button").addEventListener("click", () => {
   document.querySelector(".menu-parent").classList.toggle("hidden");
 });
 
+document.addEventListener("click",(e)=>{
+  if(e.target.closest(".more-about-us") || e.target.closest(".register-wrapper")){
+    document.querySelector(".menu-parent").classList.toggle("hidden");
+
+  }
+})
+
 const swiper = new Swiper(".swiper", {
   // Optional parameters
   direction: "horizontal",
